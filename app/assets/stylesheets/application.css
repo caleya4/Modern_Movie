@@ -1,0 +1,84 @@
+div
+{
+    border-radius:5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+body
+{
+    font-family:Arial;
+}
+#header
+{
+    box-sizing:border-box;
+    width:1885px;
+    background-color:black;
+    align:top;
+    height:350px;
+    margin-bottom:10px;
+    font-family:cursive;
+    color:white;
+    font-size:250px;
+    text-align:center;
+    span-display:block;
+    text-postion:absolute center;
+}
+h1
+{
+    text-align: center;
+}
+.tweets
+{
+    width:430px;
+    height:1000px;
+    background-color:slategray;
+    float:left;
+    position:relative;
+    margin-left:10px;
+    overflow:scroll;
+    color:white;
+    padding-left:15px;
+}
+.nytimesmovies
+{
+    width:780px;
+    height:1000px;
+    background-color:darkred;
+    float:left;
+    margin-left:475px;
+    position:absolute;
+    color:white;
+    padding-left: 15px;
+    overflow: scroll;
+}
+.instagram
+{
+    width:525px;
+    height:1000px;
+    background-color:darkslategray;
+    float:left;
+    margin-left: 1290px;
+    color:white;
+    overflow:scroll;
+    position:absolute;
+    padding-left: 45px;
+}
+a
+{
+    color:white;
+    font-size: 20px;
+}
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
